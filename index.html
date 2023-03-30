@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <script src="rps.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <p>ROCK PAPER SCISSORS</p>
+    </header>
+    <div class="buttons">
+      <div class="btn">
+        <input id="rock" type="image" src="images/rock.svg" alt="rock" />
+        <p>Rock</p>
+      </div>
+      <div class="btn">
+        <input id="paper" type="image" src="images/paper.svg" alt="paper" />
+        <p>Paper</p>
+      </div>
+      <div class="btn">
+        <input
+          id="scissors"
+          type="image"
+          src="images/scissors.svg"
+          alt="scissors"
+        />
+        <p>Scissors</p>
+      </div>
+    </div>
+    <div class="counter">
+      <p>Player wins: <span id="player-wins">0</span></p>
+      <p class="spacer"></p>
+      <p>Computer wins: <span id="computer-wins">0</span></p>
+    </div>
+    <div>
+      <p id="log-text"></p>
+    </div>
+  </body>
+</html>

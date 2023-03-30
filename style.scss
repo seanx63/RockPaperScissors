@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    background-color: #292929;
+}
+$dark-gray1: #585858;
+$white1: #f7f7f7;
+$light-gray1: #c1c1c1;
+header > p {
+    justify-content: center;
+    border-bottom: 1px solid $dark-gray1;
+    color: $white1;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+    padding: 1%
+}
+.buttons {
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    scale: 0.5;
+    padding-left: 1%;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn>p {
+    font-size: 36px;
+    display: flex;
+    color: $light-gray1;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.counter {
+    color: $light-gray1;
+    display: flex;
+    justify-content: center;
+}
+.counter .spacer {
+    width: 10%;
+}
+div:has(#log-text) {
+    border: solid 2px $dark-gray1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 30%;
+    color: $light-gray1;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
